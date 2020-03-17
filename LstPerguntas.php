@@ -93,7 +93,7 @@
                 echo "<td>". $materias['Materia_id'] ."</td>";
                 echo "<td>". $materias['Materia'] ."</td>";
                 echo "<form action='OperacoesAdm.php' method='POST'>";
-                  echo"<td><button name='Delete_Materia' type='submit' class='btn btn-danger' value=".$materias['Materia_id'].">Excluir </button></td>";
+                echo"<td><button name='Delete_Materia' type='submit' class='btn btn-danger' value=".$materias['Materia_id'].">Excluir </button></td>";
                 echo "</form>";
                 echo "</tr>"; 
               }

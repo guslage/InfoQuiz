@@ -20,7 +20,16 @@
 
 	if(isset($_POST['TXT_Materia'])){
 		$Materia = $_POST['TXT_Materia'];
-		$sql = mysqli_query($link, "INSERT INTO Materia VALUES(null, '$Materia')");
+
+		$sqlMat = mysqli_query($link, "SELECT * FROM Materia WHERE Materia = '". $Materia ."'");
+		$ColunasMat = mysqli_affected_rows($sqlMat);
+
+		if ($ColunasMat == 0) {
+			$insertMat = mysqli_query($link, "INSERT INTO Materia VALUES(null, '$Materia')");
+		}else{
+			$_SESSION['Materia'] = "Matéria já existente";
+		}
+
 		header("location:Adm.php?link=3");
 	}
 ?>

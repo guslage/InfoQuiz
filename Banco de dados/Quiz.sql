@@ -58,3 +58,4 @@ Pergunta_Resposta_id int not null,
 foreign key (Pergunta_Resposta_id) references Perguntas (Pergunta_id)
 );
 
+INSERT INTO `jogador` (`Jogador_id`, `Nome`, `Sobrenome`, `UserName`, `Senha`, `Sexo`, `Rec_Senha`, `DataNasc`, `NivelAcesso`) VALUES (NULL, 'admin', 'admin', 'admin', 'admin', 'M', 'admin', '2000-01-01', '1');
