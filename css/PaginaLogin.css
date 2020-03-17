@@ -1,0 +1,63 @@
+body {
+  padding-top: 5%;
+  padding-bottom: 50%;
+  background-color: #eee;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+#Logo {
+    width: 90%;
+    height: 30%;
+  margin-left: 35%;
+  margin-bottom: 13%;
+}
+
+img {
+  position: fixed;
+    width: 30%;
+    height: auto;
+}
+
+.form-signin {
+  max-width: 40%;
+  padding: 5%;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 3%;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 4%;
+  font-size: 90%;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 5%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#button{
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+}
+
+#Cadastro{
+  font-size: 15px;
+}

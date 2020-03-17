@@ -1,0 +1,24 @@
+Objetivo do sistema: Quiz com perguntas de varias matérias
+
+Atores: - Jogador
+	- Administrador
+
+
+Requisitos funcionais:
+
+	Administrador:  - Cadastra Perguntas
+			- Altera Perguntas
+			- Exclui Perguntas
+			- Cadastra Matéria
+			- Exclui Matéria
+			- Exclui Jogador
+			- Consulta jogadores
+			- Consulta Pontuação
+			- Cadastra Administrador
+			
+
+	Jogador: 	- Altera dados do próprio jogador
+			- Responde perguntas
+			- Efetua cadastro
+			- Consulta Pontuação
+			 

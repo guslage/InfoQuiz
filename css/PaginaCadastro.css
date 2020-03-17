@@ -1,0 +1,85 @@
+.form-signin {
+  max-width: 100%;
+  padding: 5%;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 3%;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 4%;
+  font-size: 90%;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+#Nome {
+   border: solid 1px #CAC9C9;
+  width: 100%;
+  bottom: -2px;
+ 
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="date"] {
+  top: -8px;
+   border: solid 1px #CAC9C9;
+ 
+  margin-bottom: 5%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  top: -5px;	
+   border: solid 1px #CAC9C9;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#Sobrenome{
+   border: solid 1px #CAC9C9;
+  top: -1px;
+  bottom: -1px;
+
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#Username{
+   border: solid 1px #CAC9C9;
+  top: -4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#Sexo{
+     border: solid 1px #CAC9C9;
+  top: -6px;
+  bottom: -1px;
+
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#button{
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+}
+
+#Cadastro{
+  font-size: 15px;
+}
